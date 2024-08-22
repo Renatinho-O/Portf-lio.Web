@@ -1,0 +1,75 @@
+h1 {
+  color: #fff; /* Cor do texto */
+  background-color: #8B0000; /* Vermelho escuro para o fundo */
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.imagem-sobre {
+  max-width: 250%; /* Garante que a imagem não ultrapasse a largura do container */
+  max-height: 400px;
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Faz com que a imagem se comporte como um bloco */
+  margin: 20px auto; /* Centraliza a imagem e adiciona espaçamento em torno dela */
+  border-radius: 10px; /* Bordas arredondadas para a imagem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para dar profundidade */
+}
+
+.imagens-container {
+  text-align: center; /* Centraliza o contêiner */
+}
+
+.imagem-sobre {
+  display: inline-block;
+  max-width: 45%; /* Ajusta o tamanho das imagens */
+  margin: 0 5px; /* Controla o espaço entre as imagens */
+  vertical-align: middle; /* Alinha as imagens ao meio */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
